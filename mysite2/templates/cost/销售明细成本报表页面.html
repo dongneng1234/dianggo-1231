@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>销售明细表</title>
+</head>
+<body>
+    <div id="top" >
+        华圣财务专用
+        <hr color="red">
+    </div>
+    <div id="main">
+        <table border="1">
+            <caption>销售明细表</caption>
+            <tr>
+                <th>业务员</th>
+                <th>购货单位</th>
+                <th>科室</th>
+                <th>日期</th>
+                <th>金蝶单据编号</th>
+                <th>千方单据编号</th>
+                <th>品种</th>
+                <th>产品长代码</th>
+                <th>规格型号</th>
+                <th>单位</th>
+                <th>批号</th>
+                <th>数量</th>
+                <th>单价</th>
+                <th>金额</th>
+                <th>托运费</th>
+                <th>单位成本</th>
+                <th>比例</th>
+                <th>成本A</th>
+                <th>成本B</th>
+                <th>毛利A</th>
+                <th>毛利B</th>
+                <th>税率</th>
+                <th>提成</th>
+
+            </tr>
+            {% for book in all_book %}
+            <tr>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+            </tr>
+            {%endfor%}
+
+
+
+
+
+        </table>
+    </div>
+    <div id="bottom"></div>
+</body>
+</html>

@@ -6,5 +6,6 @@ urlpatterns = [
     path('test_csv', views.test_csv),
     # path('make_page_csv', views.make_page_csv),
     path('page_1',views.page_1),
+    path('page_2',views.page_2),
 
 ]

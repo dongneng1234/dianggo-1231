@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>业务员客户清单明细</title>
+</head>
+<body>
+    <table border="1">
+        <caption>业务员客户清单明细</caption>
+        <tr>
+            <th>序号</th>
+            <th>客户</th>
+            <th>科室</th>
+        </tr>
+        {% for book in all_book %}
+        <tr>
+            <td>{}</td>
+            <td>{}</td>
+            <td>{}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

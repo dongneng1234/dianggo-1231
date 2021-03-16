@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>损益表</title>
+</head>
+<body>
+    <div id="top"></div>
+    <div id="main">
+        <table border="1">
+            <caption>损益表</caption>
+            <tr>
+                <th>类型</th>
+                <th>销售金额</th>
+                <th>托运费</th>
+                <th>成本A</th>
+                <th>成本B</th>
+                <th>毛利A</th>
+                <th>毛利B</th>
+                <th>毛利率A</th>
+                <th>毛利率B</th>
+            </tr>
+            {% for book in all_book %}
+
+            <tr>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+            </tr>
+            {% endfor %}
+            
+            
+        </table>
+    </div>
+    <div id="bottom"></div>
+</body>
+</html>

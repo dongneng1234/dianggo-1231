@@ -36,3 +36,5 @@ def test_upload(request):
 
 def page_1(request):
     return HttpResponse("woshoghowehivnigh ")
+def page_2(request):
+    return render(request, 'cost/销售明细成本报表页面.html')

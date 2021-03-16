@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客户销售回款情况表</title>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <caption>
+            <hr>
+            客户销售回款情况表
+            <hr>
+        </caption>
+        <tr>
+            <th rowspan="2">出库时间</th>
+            <th rowspan="2">开票时间</th>
+            <th rowspan="2">单据号码</th>
+            <th rowspan="2">发票号码</th>
+            <th rowspan="2">金额</th>
+            <th colspan="2">销售回款</th>
+            <th rowspan="2">是否结清</th>
+            <th rowspan="2">未对账</th>
+            <th rowspan="2">90天以内</th>
+            <th rowspan="2">90-150天</th>
+            <th rowspan="2">150天以上</th>
+            <th rowspan="2">备注</th>
+            
+        </tr>
+        <hr>
+        <tr>
+            <th>编号</th>
+            <th>金额</th>
+    
+        </tr>
+        {% for book in all_book %}
+            <tr>
+                <td>{{ book.id }}</td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.pub }}</td>
+                <td>{{ book.price }}</td>
+                <td>{{ book.market_price }}</td>
+                <td>
+        <tr>
+            <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+                <td>{}</td>
+        </tr>
+        {% endfor %}
+        
+    </table>
+</body>
+</html>
