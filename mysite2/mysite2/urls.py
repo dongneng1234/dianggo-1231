@@ -16,9 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 
+from django.conf import settings
+from django.conf.urls.static import static
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('backmoney/',include('CW_xiaoshou_backmoney.urls')),
     path('cost/',include('CW_xiaoshou_cost.urls')),
     # path('fahuofei/',include('CW_xiaoshou_fahuofei')),
 ]
+
+
+# urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

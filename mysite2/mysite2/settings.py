@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'CW_xiaoshou_cost',
-    'CW_xiaoshou_backmoney',
-    'CW_xiaoshou_fahuofei'
+    # 'CW_xiaoshou_backmoney',
+    # 'CW_xiaoshou_fahuofei',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +126,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+MEDIA_ROOT = os.path.join(BASE_DIR,
+'static/files')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT_a= os.path.join(BASE_DIR, 'media')

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="533df3fd-7f46-43f9-a956-2bf78c5beaa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW_xiaoshou_cost/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_xiaoshou_cost/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CW_xiaoshou_cost/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_xiaoshou_cost/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CW_xiaoshou_cost/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_xiaoshou_cost/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cost/test_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cost/test_upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cost/销售明细成本报表页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cost/销售明细成本报表页面.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +35,39 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mysite2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW_xiaoshou_cost" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW_xiaoshou_cost/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -61,10 +95,36 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="67" y="98" key="SettingsEditor" timestamp="1615788395985">
-      <screen x="67" y="27" width="863" height="875" />
+    <state x="157" y="129" width="800" height="677" key="#Notifications" timestamp="1616118297647">
+      <screen x="67" y="27" width="992" height="883" />
     </state>
+    <state x="157" y="129" width="800" height="677" key="#Notifications/67.27.992.883@67.27.992.883" timestamp="1616118297647" />
+    <state width="1827" height="227" key="GridCell.Tab.0.bottom" timestamp="1616149132271">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1827" height="227" key="GridCell.Tab.0.bottom/67.27.1851.899@67.27.1851.899" timestamp="1616149132271" />
+    <state width="1827" height="227" key="GridCell.Tab.0.center" timestamp="1616149132269">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1827" height="227" key="GridCell.Tab.0.center/67.27.1851.899@67.27.1851.899" timestamp="1616149132269" />
+    <state width="1827" height="227" key="GridCell.Tab.0.left" timestamp="1616149132268">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1827" height="227" key="GridCell.Tab.0.left/67.27.1851.899@67.27.1851.899" timestamp="1616149132268" />
+    <state width="1827" height="227" key="GridCell.Tab.0.right" timestamp="1616149132270">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1827" height="227" key="GridCell.Tab.0.right/67.27.1851.899@67.27.1851.899" timestamp="1616149132270" />
+    <state x="67" y="100" key="SettingsEditor" timestamp="1616153343961">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state x="67" y="100" key="SettingsEditor/67.27.1851.899@67.27.1851.899" timestamp="1616153343961" />
     <state x="67" y="98" key="SettingsEditor/67.27.863.875@67.27.863.875" timestamp="1615788395985" />
+    <state x="67" y="99" key="SettingsEditor/67.27.992.890@67.27.992.890" timestamp="1616037003449" />
+    <state x="655" y="219" key="search.everywhere.popup" timestamp="1616152063193">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state x="655" y="219" key="search.everywhere.popup/67.27.1851.899@67.27.1851.899" timestamp="1616152063193" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

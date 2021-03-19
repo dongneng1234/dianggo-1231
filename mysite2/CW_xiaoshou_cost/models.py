@@ -68,3 +68,8 @@ class make_money(models.Model):
                                    decimal_places=2,
                                    default=0.0
                                    )
+    class Meta:
+        db_table = 'make_money'
+
+    def __str__(self):
+        return '%s_%s_%s_%s%_s_%s_%s_%s_%s_%s_%s%_s_%s_%s_%s_%s_%s%_s_%s_%s__%s_%s_%s%_s_%s_%s_%s_%s_%s_%s%_s_%s_%s_%s_%s_%s%_s_%s_%s'

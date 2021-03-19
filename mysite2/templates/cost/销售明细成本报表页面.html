@@ -23,6 +23,7 @@
                 <th>千方单据编号</th>
                 <th>品种</th>
                 <th>产品长代码</th>
+                <th>产品名称</th>
                 <th>规格型号</th>
                 <th>单位</th>
                 <th>批号</th>
@@ -32,39 +33,44 @@
                 <th>托运费</th>
                 <th>单位成本</th>
                 <th>比例</th>
+                <th>备注</th>
+                <th>税率</th>
                 <th>成本A</th>
                 <th>成本B</th>
                 <th>毛利A</th>
                 <th>毛利B</th>
-                <th>税率</th>
+                <th>税额</th>
                 <th>提成</th>
 
             </tr>
-            {% for book in all_book %}
+            {% for book in all_cost %}
             <tr>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
-                <td>{}</td>
+                <td>{{book.salesman}}</td>
+                <td>{{book.Purchase}}</td>
+                <td>{{book.administrative_office}}</td>
+                <td>{{book.day}}</td>
+                <td>{{book.FBillNo1}}</td>
+                <td>{{book.FBillNo2}}</td>
+                <td>{{book.VAR}}</td>
+                <td>{{book.word}}</td>
+                <td>{{book.name_1}}</td>
+                <td>{{book.ITEM}}</td>
+                <td>{{book.unit}}</td>
+                <td>{{book.batch_number}}</td>
+                <td>{{book.number_1}</td>
+                <td>{{book.price_1}}</td>
+                <td>{{book.money_1}}</td>
+                <td>{{book.haulage_1}}</td>
+                <td>{{book.unit_cost}}</td>
+                <td>{{book.Proportion_1}}</td>
+                <td>{{book.remark_1}}</td>
+                <td>{{book.tax_rate_1}}</td>
+                <td>{{book.cost_A}}</td>
+                <td>{{book.cost_B}}</td>
+                <td>{{book.Margin_A}}</td>
+                <td>{{book.Margin_B}}</td>
+                <td>{{book.Tax_rate_2}}</td>
+                <td>{{book.Push_money}}</td>
             </tr>
             {%endfor%}
 
